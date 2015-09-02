@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		04B3FC921B97B10100D398B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3FC911B97B10100D398B1 /* main.m */; };
 		04B3FC951B97B10100D398B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3FC941B97B10100D398B1 /* AppDelegate.m */; };
-		04B3FC981B97B10100D398B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3FC971B97B10100D398B1 /* ViewController.m */; };
-		04B3FC9B1B97B10100D398B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B3FC991B97B10100D398B1 /* Main.storyboard */; };
 		04B3FC9D1B97B10100D398B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B3FC9C1B97B10100D398B1 /* Images.xcassets */; };
 		04B3FCA01B97B10100D398B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B3FC9E1B97B10100D398B1 /* LaunchScreen.xib */; };
 		04B3FCAC1B97B10100D398B1 /* AFNetworkigTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3FCAB1B97B10100D398B1 /* AFNetworkigTestTests.m */; };
+		04B3FCB71B97B19700D398B1 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3FCB61B97B19700D398B1 /* ListTableViewController.m */; };
+		04B3FCBB1B97C00200D398B1 /* ListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3FCBA1B97C00200D398B1 /* ListTableViewCell.m */; };
+		F7841C73202A430B817F7B46 /* libPods-AFNetworkigTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBD32D4F524488EA7BBDB32 /* libPods-AFNetworkigTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,18 @@
 		04B3FC911B97B10100D398B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04B3FC931B97B10100D398B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04B3FC941B97B10100D398B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		04B3FC961B97B10100D398B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04B3FC971B97B10100D398B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		04B3FC9A1B97B10100D398B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04B3FC9C1B97B10100D398B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		04B3FC9F1B97B10100D398B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		04B3FCA51B97B10100D398B1 /* AFNetworkigTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFNetworkigTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B3FCAA1B97B10100D398B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04B3FCAB1B97B10100D398B1 /* AFNetworkigTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkigTestTests.m; sourceTree = "<group>"; };
+		04B3FCB51B97B19700D398B1 /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
+		04B3FCB61B97B19700D398B1 /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
+		04B3FCB91B97C00200D398B1 /* ListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewCell.h; sourceTree = "<group>"; };
+		04B3FCBA1B97C00200D398B1 /* ListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewCell.m; sourceTree = "<group>"; };
+		0EBD32D4F524488EA7BBDB32 /* libPods-AFNetworkigTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNetworkigTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		821B671506ECD8D2183B1BBA /* Pods-AFNetworkigTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworkigTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworkigTest/Pods-AFNetworkigTest.release.xcconfig"; sourceTree = "<group>"; };
+		8B7F3A4B80B598281122EF44 /* Pods-AFNetworkigTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworkigTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworkigTest/Pods-AFNetworkigTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7841C73202A430B817F7B46 /* libPods-AFNetworkigTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +72,8 @@
 				04B3FC8E1B97B10100D398B1 /* AFNetworkigTest */,
 				04B3FCA81B97B10100D398B1 /* AFNetworkigTestTests */,
 				04B3FC8D1B97B10100D398B1 /* Products */,
+				B6C21B8091FCE4839E496B5A /* Pods */,
+				695F1E31FDBB187FD2F892C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,9 +91,8 @@
 			children = (
 				04B3FC931B97B10100D398B1 /* AppDelegate.h */,
 				04B3FC941B97B10100D398B1 /* AppDelegate.m */,
-				04B3FC961B97B10100D398B1 /* ViewController.h */,
-				04B3FC971B97B10100D398B1 /* ViewController.m */,
-				04B3FC991B97B10100D398B1 /* Main.storyboard */,
+				04B3FCBC1B97C00700D398B1 /* Views */,
+				04B3FCB81B97B1FA00D398B1 /* Controllers */,
 				04B3FC9C1B97B10100D398B1 /* Images.xcassets */,
 				04B3FC9E1B97B10100D398B1 /* LaunchScreen.xib */,
 				04B3FC8F1B97B10100D398B1 /* Supporting Files */,
@@ -119,6 +126,41 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		04B3FCB81B97B1FA00D398B1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04B3FCB51B97B19700D398B1 /* ListTableViewController.h */,
+				04B3FCB61B97B19700D398B1 /* ListTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		04B3FCBC1B97C00700D398B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04B3FCB91B97C00200D398B1 /* ListTableViewCell.h */,
+				04B3FCBA1B97C00200D398B1 /* ListTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		695F1E31FDBB187FD2F892C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EBD32D4F524488EA7BBDB32 /* libPods-AFNetworkigTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6C21B8091FCE4839E496B5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B7F3A4B80B598281122EF44 /* Pods-AFNetworkigTest.debug.xcconfig */,
+				821B671506ECD8D2183B1BBA /* Pods-AFNetworkigTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04B3FCAF1B97B10100D398B1 /* Build configuration list for PBXNativeTarget "AFNetworkigTest" */;
 			buildPhases = (
+				BE3C81C6E676CF54F7C069F6 /* Check Pods Manifest.lock */,
 				04B3FC881B97B10100D398B1 /* Sources */,
 				04B3FC891B97B10100D398B1 /* Frameworks */,
 				04B3FC8A1B97B10100D398B1 /* Resources */,
+				22350E0353109269EBE79558 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,7 +243,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04B3FC9B1B97B10100D398B1 /* Main.storyboard in Resources */,
 				04B3FCA01B97B10100D398B1 /* LaunchScreen.xib in Resources */,
 				04B3FC9D1B97B10100D398B1 /* Images.xcassets in Resources */,
 			);
@@ -214,14 +257,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22350E0353109269EBE79558 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFNetworkigTest/Pods-AFNetworkigTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE3C81C6E676CF54F7C069F6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04B3FC881B97B10100D398B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04B3FC981B97B10100D398B1 /* ViewController.m in Sources */,
 				04B3FC951B97B10100D398B1 /* AppDelegate.m in Sources */,
+				04B3FCBB1B97C00200D398B1 /* ListTableViewCell.m in Sources */,
 				04B3FC921B97B10100D398B1 /* main.m in Sources */,
+				04B3FCB71B97B19700D398B1 /* ListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +321,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		04B3FC991B97B10100D398B1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04B3FC9A1B97B10100D398B1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		04B3FC9E1B97B10100D398B1 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -345,6 +414,7 @@
 		};
 		04B3FCB01B97B10100D398B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B7F3A4B80B598281122EF44 /* Pods-AFNetworkigTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AFNetworkigTest/Info.plist;
@@ -355,6 +425,7 @@
 		};
 		04B3FCB11B97B10100D398B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 821B671506ECD8D2183B1BBA /* Pods-AFNetworkigTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AFNetworkigTest/Info.plist;
@@ -416,6 +487,7 @@
 				04B3FCB11B97B10100D398B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04B3FCB21B97B10100D398B1 /* Build configuration list for PBXNativeTarget "AFNetworkigTestTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +496,7 @@
 				04B3FCB41B97B10100D398B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

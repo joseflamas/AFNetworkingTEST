@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ListTableViewController.h
 //  AFNetworkigTest
 //
 //  Created by Mac on 9/2/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ListTableViewController : UITableViewController
 
 @end
-

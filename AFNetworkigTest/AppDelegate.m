@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ListTableViewController.h"
 
 @interface AppDelegate ()
 
@@ -15,8 +16,16 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    
+    
+    ListTableViewController *ltvc = [[ListTableViewController alloc] init];
+    UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:ltvc];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self.window setRootViewController:nc];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
