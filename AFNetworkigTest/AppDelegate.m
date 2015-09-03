@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ListTableViewController.h"
+#import "ListViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,8 +20,8 @@
 {
     
     
-    ListTableViewController *ltvc = [[ListTableViewController alloc] init];
-    UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:ltvc];
+    ListViewController *lvc = [[ListViewController alloc] init];
+    UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:lvc];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     [self.window setRootViewController:nc];
     [self.window makeKeyAndVisible];

@@ -12,8 +12,11 @@
 		04B3FC9D1B97B10100D398B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B3FC9C1B97B10100D398B1 /* Images.xcassets */; };
 		04B3FCA01B97B10100D398B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B3FC9E1B97B10100D398B1 /* LaunchScreen.xib */; };
 		04B3FCAC1B97B10100D398B1 /* AFNetworkigTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3FCAB1B97B10100D398B1 /* AFNetworkigTestTests.m */; };
-		04B3FCB71B97B19700D398B1 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3FCB61B97B19700D398B1 /* ListTableViewController.m */; };
 		04B3FCBB1B97C00200D398B1 /* ListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3FCBA1B97C00200D398B1 /* ListTableViewCell.m */; };
+		04B3FCBF1B97CAE500D398B1 /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3FCBE1B97CAE500D398B1 /* Weather.m */; };
+		04B3FCC31B97CC0C00D398B1 /* RequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3FCC21B97CC0C00D398B1 /* RequestHandler.m */; };
+		04B3FCC61B97D61A00D398B1 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3FCC51B97D61A00D398B1 /* ListViewController.m */; };
+		04B3FCCA1B97E06500D398B1 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3FCC91B97E06500D398B1 /* DetailViewController.m */; };
 		F7841C73202A430B817F7B46 /* libPods-AFNetworkigTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBD32D4F524488EA7BBDB32 /* libPods-AFNetworkigTest.a */; };
 /* End PBXBuildFile section */
 
@@ -38,10 +41,16 @@
 		04B3FCA51B97B10100D398B1 /* AFNetworkigTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFNetworkigTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B3FCAA1B97B10100D398B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04B3FCAB1B97B10100D398B1 /* AFNetworkigTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkigTestTests.m; sourceTree = "<group>"; };
-		04B3FCB51B97B19700D398B1 /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
-		04B3FCB61B97B19700D398B1 /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
 		04B3FCB91B97C00200D398B1 /* ListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewCell.h; sourceTree = "<group>"; };
 		04B3FCBA1B97C00200D398B1 /* ListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewCell.m; sourceTree = "<group>"; };
+		04B3FCBD1B97CAE500D398B1 /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weather.h; sourceTree = "<group>"; };
+		04B3FCBE1B97CAE500D398B1 /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weather.m; sourceTree = "<group>"; };
+		04B3FCC11B97CC0C00D398B1 /* RequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestHandler.h; sourceTree = "<group>"; };
+		04B3FCC21B97CC0C00D398B1 /* RequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestHandler.m; sourceTree = "<group>"; };
+		04B3FCC41B97D61A00D398B1 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		04B3FCC51B97D61A00D398B1 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		04B3FCC81B97E06500D398B1 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		04B3FCC91B97E06500D398B1 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		0EBD32D4F524488EA7BBDB32 /* libPods-AFNetworkigTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNetworkigTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		821B671506ECD8D2183B1BBA /* Pods-AFNetworkigTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworkigTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworkigTest/Pods-AFNetworkigTest.release.xcconfig"; sourceTree = "<group>"; };
 		8B7F3A4B80B598281122EF44 /* Pods-AFNetworkigTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworkigTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworkigTest/Pods-AFNetworkigTest.debug.xcconfig"; sourceTree = "<group>"; };
@@ -91,6 +100,7 @@
 			children = (
 				04B3FC931B97B10100D398B1 /* AppDelegate.h */,
 				04B3FC941B97B10100D398B1 /* AppDelegate.m */,
+				04B3FCC01B97CAEA00D398B1 /* Models */,
 				04B3FCBC1B97C00700D398B1 /* Views */,
 				04B3FCB81B97B1FA00D398B1 /* Controllers */,
 				04B3FC9C1B97B10100D398B1 /* Images.xcassets */,
@@ -129,8 +139,11 @@
 		04B3FCB81B97B1FA00D398B1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				04B3FCB51B97B19700D398B1 /* ListTableViewController.h */,
-				04B3FCB61B97B19700D398B1 /* ListTableViewController.m */,
+				04B3FCC41B97D61A00D398B1 /* ListViewController.h */,
+				04B3FCC51B97D61A00D398B1 /* ListViewController.m */,
+				04B3FCC81B97E06500D398B1 /* DetailViewController.h */,
+				04B3FCC91B97E06500D398B1 /* DetailViewController.m */,
+				04B3FCC71B97E04000D398B1 /* RequestHandler */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -142,6 +155,24 @@
 				04B3FCBA1B97C00200D398B1 /* ListTableViewCell.m */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		04B3FCC01B97CAEA00D398B1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04B3FCBD1B97CAE500D398B1 /* Weather.h */,
+				04B3FCBE1B97CAE500D398B1 /* Weather.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		04B3FCC71B97E04000D398B1 /* RequestHandler */ = {
+			isa = PBXGroup;
+			children = (
+				04B3FCC11B97CC0C00D398B1 /* RequestHandler.h */,
+				04B3FCC21B97CC0C00D398B1 /* RequestHandler.m */,
+			);
+			name = RequestHandler;
 			sourceTree = "<group>";
 		};
 		695F1E31FDBB187FD2F892C9 /* Frameworks */ = {
@@ -295,10 +326,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B3FCC31B97CC0C00D398B1 /* RequestHandler.m in Sources */,
 				04B3FC951B97B10100D398B1 /* AppDelegate.m in Sources */,
+				04B3FCC61B97D61A00D398B1 /* ListViewController.m in Sources */,
 				04B3FCBB1B97C00200D398B1 /* ListTableViewCell.m in Sources */,
 				04B3FC921B97B10100D398B1 /* main.m in Sources */,
-				04B3FCB71B97B19700D398B1 /* ListTableViewController.m in Sources */,
+				04B3FCBF1B97CAE500D398B1 /* Weather.m in Sources */,
+				04B3FCCA1B97E06500D398B1 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
