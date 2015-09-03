@@ -83,7 +83,7 @@ static NSString * const reuseIdentifier = @"listCell";
                                                                 self.view.frame.size.width,
                                                                 55)];
     tb.backgroundColor = [UIColor blackColor];
-    UIBarButtonItem *jsonButton = [[UIBarButtonItem alloc] initWithTitle:@"JSON" style:UIBarButtonItemStylePlain target:self action:@selector(useJSON)];
+    UIBarButtonItem *jsonButton = [[UIBarButtonItem alloc] initWithTitle:@"GET WEATHER INFO" style:UIBarButtonItemStylePlain target:self action:@selector(useJSON)];
     
 //    UIBarButtonItem *xmlButton  = [[UIBarButtonItem alloc] initWithTitle:@"XML" style:UIBarButtonItemStylePlain target:self action:@selector(useXML)];
 //    
@@ -246,8 +246,7 @@ static NSString * const reuseIdentifier = @"listCell";
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     DetailViewController *dvc = [[DetailViewController alloc]init];
-    
-    
+    [dvc setDayWeather:self.weekWeather[indexPath.row]];
     [self.navigationController pushViewController:dvc animated:YES];
 }
 
